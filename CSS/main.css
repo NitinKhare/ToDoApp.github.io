@@ -1,0 +1,90 @@
+body{
+    font-family: Roboto;
+    background: #1a2a6c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #fdbb2d, #b21f1f, #1a2a6c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #fdbb2d, #b21f1f, #1a2a6c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+
+#container{
+    width: 480px;
+    margin: 100px auto;
+    /*border: 2px solid gray;*/
+    background: #eaeff5;
+    box-shadow: (0 0 3px rgba(0, 0, 0, 0.2))
+}
+
+.completed{
+    color: gray;
+    text-decoration: line-through;
+}
+
+h1{
+    background: #63bed4;
+    color: white;
+    margin: 0;
+    padding: 10px 20px;
+    font-size : 24px;
+    font-weight: normal;
+}
+
+#editIcon{
+    float: right;
+    opacity: 1;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    background: white;
+    height: 36px;
+    line-height: 36px;
+    color: #666;
+}
+
+li:nth-child(2n) {
+    background: #eaeff5;
+}
+
+
+input{
+    font-size: 18px;
+    color:#63bed4;
+    background-color: #eaeff5;
+    width: 100%;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    padding: 13px 13px 13px 18px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+input:focus{
+    background: white;
+    border: 2px solid #63bed4;
+    outline: none;
+}
+
+span{
+    background: #e74c37;
+    height: 36px;
+    margin-right: 20px;
+    text-align: center;
+    color: white;
+    width: 0;
+    display: inline-block;
+    transition: 0.2s linear;
+    opacity: 0;
+}
+
+li:hover span{
+    width: 36px;
+    display: inline-block;
+    opacity: 1;
+}
+

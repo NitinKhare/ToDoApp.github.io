@@ -5,21 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>ToDoApp</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="CSS/main.css" />
-    <script src="JS/main.js"></script>
 </head>
 <body>
     <div id="container">
-    <h1>To Do Items</h1>
-    <input type="text">
+    <h1>To Do Items <span id = "editIcon"><i class="far fa-edit"></i></span></h1>
+    <input type="text" placeholder="Enter To Do item here">
         <ul>
-            <li>X First item</li>
-            <li>X Second Item</li>
-            <li>X Third Item</li>
+            <li><span><i class = "fa fa-trash-alt"></i></span> First item</li>
+            <li><span><i class = "fa fa-trash-alt"></i></span> Second Item</li>
+            <li><span><i class = "fa fa-trash-alt"></i></span> Third Item</li>
         </ul>
     </div>
 
 
     <script type="text/javascript" src="JS/jquery-3.3.1.min.js"></script>
+    <script src="JS/main.js"></script>
 </body>
 </html>
