@@ -3,7 +3,6 @@ body{
     background: #1a2a6c;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #fdbb2d, #b21f1f, #1a2a6c);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #fdbb2d, #b21f1f, #1a2a6c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
 }
 
 
@@ -11,7 +10,7 @@ body{
     width: 480px;
     margin: 100px auto;
     /*border: 2px solid gray;*/
-    background: #eaeff5;
+    background: #dd7615;
     box-shadow: (0 0 3px rgba(0, 0, 0, 0.2))
 }
 
@@ -21,7 +20,7 @@ body{
 }
 
 h1{
-    background: #63bed4;
+    background: #dd7615;
     color: white;
     margin: 0;
     padding: 10px 20px;
@@ -41,14 +40,14 @@ ul{
 }
 
 li{
-    background: white;
+    background: rgba(194, 168, 22, 0.781);
     height: 36px;
     line-height: 36px;
-    color: #666;
+    color: #555;
 }
 
 li:nth-child(2n) {
-    background: #eaeff5;
+    background: #ddbc00;
 }
 
 
