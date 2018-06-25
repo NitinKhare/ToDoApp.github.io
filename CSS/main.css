@@ -53,7 +53,7 @@ li:nth-child(2n) {
 
 input{
     font-size: 18px;
-    color:#63bed4;
+    color: purple;
     background-color: #eaeff5;
     width: 100%;
     border: 2px solid rgba(0, 0, 0, 0.2);
